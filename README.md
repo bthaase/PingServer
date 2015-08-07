@@ -11,8 +11,10 @@ Build in Eclipse to produce a *.WAR file you can deploy to Tomcat 7.
 
 Once spun up, it provides a pair of endpoints at /ping
 ```
-GET /ping - Responds with { status: alive }, which is used for one of our service monitors.
-GET /ping/{Target} - Pings the target IP or DNS name and responds with JSON data containing the results. 
+GET /ping
+ Responds with { status: alive }, which is used for one of our service monitors.
+GET /ping/{Target}
+ Pings the target IP or DNS name and responds with JSON data containing the results. 
 ```
 
 #### JSON Response Packet
